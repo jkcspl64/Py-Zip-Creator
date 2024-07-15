@@ -23,6 +23,8 @@ This Python 3.x CLI script was made to create/overwrite a given ZIP file with a 
 
    ```
    $ python -m venv env
+   $ source env/bin/activate   # If you're on Linux, or
+   > .\env\Scripts\activate    # If you're on Windows
    $ python -m pip install -r requirements.txt
    ```
 
