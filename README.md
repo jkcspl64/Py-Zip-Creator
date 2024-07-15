@@ -20,11 +20,13 @@ This Python 3.x CLI script was made to create/overwrite a given ZIP file with a 
 
 1. Download the contents of the repository to an empty folder of your choice.
 2. Run the following commands:
+
     $ python -m venv env
     $ python -m pip install -r requirements.txt
 
    This will install PyInstaller, to be able to generate a binary executable.
 3. (Optional) Run the following command to create a binary executable:
+
     $ pyinstaller -F zip_creator.py
 
    The result will be in the `dist` directory.
