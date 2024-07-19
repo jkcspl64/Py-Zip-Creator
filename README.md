@@ -3,6 +3,8 @@ Python script to create/overwrite ZIP files based on a list of paths to files
 
 This Python 3.x CLI script was made to create/overwrite a given ZIP file with a list of paths to files needed to archive.
 
+The ZIP icon was taken from: https://www.flaticon.com/free-icon/zip-folder_6861248
+
 ## Parameters
 
     zip_creator.py [-h] [-V] file_list zip_file
@@ -32,7 +34,7 @@ This Python 3.x CLI script was made to create/overwrite a given ZIP file with a 
 3. (Optional) Run the following command to create a binary executable:
 
    ```
-   $ pyinstaller -F zip_creator.py
+   $ pyinstaller --icon=zip.ico -F zip_creator.py
    ```
 
    The result will be in the `dist` directory.
